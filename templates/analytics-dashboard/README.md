@@ -1,6 +1,6 @@
 # 📈 Analytics Dashboard
 
-Real-time crypto analytics and insights platform built with Bankr's powerful API for comprehensive data visualization.
+Real-time crypto analytics and insights platform built with Bankr's powerful API for comprehensive data visualization and portfolio analysis.
 
 ## 🚀 Quick Start
 

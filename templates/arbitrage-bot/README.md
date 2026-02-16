@@ -1,6 +1,6 @@
-# 🤖 Bankr Trading Bot
+# ⚡ Arbitrage Bot
 
-A production-ready automated trading bot built with Bankr's powerful API. Execute trades, set limit orders, implement DCA strategies, and monitor your portfolio across multiple blockchains.
+A production-ready arbitrage trading bot built with Bankr's powerful API. Find and execute profitable arbitrage opportunities across multiple exchanges and blockchains.
 
 ## 🚀 Quick Start
 

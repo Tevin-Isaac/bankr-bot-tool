@@ -1,6 +1,6 @@
-# 🤖 Bankr Trading Bot
+# 💰 DeFi Yield Farm
 
-A production-ready automated trading bot built with Bankr's powerful API. Execute trades, set limit orders, implement DCA strategies, and monitor your portfolio across multiple blockchains.
+A production-ready yield farming automation tool built with Bankr's powerful API. Automatically manage liquidity positions, optimize yields, and compound rewards across multiple DeFi protocols.
 
 ## 🚀 Quick Start
 

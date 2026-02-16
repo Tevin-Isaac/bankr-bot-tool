@@ -1,6 +1,6 @@
-# 🤖 Bankr Trading Bot
+# 📊 Portfolio Tracker
 
-A production-ready automated trading bot built with Bankr's powerful API. Execute trades, set limit orders, implement DCA strategies, and monitor your portfolio across multiple blockchains.
+Monitor and analyze your crypto portfolio across multiple blockchains with real-time updates, profit/loss tracking, and comprehensive analytics built on Bankr's powerful API.
 
 ## 🚀 Quick Start
 
