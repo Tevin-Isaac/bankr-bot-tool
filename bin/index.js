@@ -15,13 +15,13 @@ console.log(chalk.blue.bold(`
 🤖 The fastest way to build crypto trading applications
 `));
 
-async function main() {
+async function main(projectNameDefault = null) {
   const answers = await inquirer.prompt([
     {
       type: 'input',
       name: 'projectName',
       message: 'What is your project called?',
-      default: 'my-bankr-app',
+      default: projectNameDefault || 'my-bankr-app',
       validate: (input) => {
         if (!input.trim()) {
           return 'Project name is required';
@@ -1117,11 +1117,8 @@ async function initGitRepo(projectPath) {
   }
 }
 
-// Handle CLI arguments
-const args = process.argv.slice(2);
-if (args.length > 0) {
-  // If project name is provided as argument, use it
-  process.argv.push('--projectName', args[0]);
-}
+// Handle CLI arguments: use first arg as project name default (e.g. create-bankr-app my-app)
+const cliArgs = process.argv.slice(2);
+const projectNameFromArg = cliArgs.length > 0 && !/^--/.test(cliArgs[0]) ? cliArgs[0] : null;
 
-main().catch(console.error);
+main(projectNameFromArg).catch(console.error);

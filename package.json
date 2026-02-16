@@ -1,6 +1,6 @@
 {
   "name": "create-bankr-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interactive CLI tool to create Bankr applications with best practices and tutorials",
   "main": "bin/index.js",
   "bin": {
