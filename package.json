@@ -1,0 +1,47 @@
+{
+  "name": "create-bankr-app",
+  "version": "1.0.0",
+  "description": "Interactive CLI tool to create Bankr applications with best practices and tutorials",
+  "main": "bin/index.js",
+  "bin": {
+    "create-bankr-app": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "node --test",
+    "dev": "node bin/index.js"
+  },
+  "keywords": [
+    "bankr",
+    "cli",
+    "crypto",
+    "trading",
+    "bot",
+    "template",
+    "generator",
+    "web3",
+    "blockchain"
+  ],
+  "author": "Bankr DevRel Team",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.1.1",
+    "ora": "^7.0.1",
+    "validate-npm-package-name": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bankr-bot/create-bankr-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bankr-bot/create-bankr-app/issues"
+  },
+  "homepage": "https://github.com/bankr-bot/create-bankr-app#readme"
+}
