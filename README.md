@@ -159,6 +159,8 @@ npm run tutorial       # Interactive tutorial
 - **Flexibility**: Choose backend/frontend combination
 - **Modern Development**: React, Next.js, TypeScript support
 
+**Total Project Combinations**: 10 templates × 3 frontend options × 5 blockchains = **150 unique project combinations**
+
 ## 🔗 Links
 
 - [Bankr Website](https://bankr.bot)
