@@ -1,6 +1,6 @@
 {
   "name": "create-bankr-app",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "Interactive CLI tool to create Bankr applications with ultra-fast Rust + WebAssembly performance",
   "main": "bin/index.js",
   "bin": {
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bankr/create-bankr-app"
+    "url": "https://github.com/Tevin-Isaac/bankr-bot-tool"
   },
   "files": [
     "bin/index.js",
